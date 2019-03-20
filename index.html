@@ -2,7 +2,7 @@
 <!-- Steven's Repository https://github.com/WebDesignerSteve/TextGame/blob/master/index.html -->
 
 <button id="demo" onclick ="displayGame()">Click me</button>
-<div style="display: none;" id="Adventure Game">
+<div style="display: none;" id="adventure-game">
 <html>
 <head>
     <meta charset="utf-8" />
@@ -26,11 +26,11 @@
 
 <script>
 
-   var x = 10;
-   var y = 990;
-   var total = x + y;
-   console.log(total);
-   console.log(x+y);
+  const adventureGame = document.getElementById('adventure-game');
+  
+  function displayGame() {
+      adventureGame.style.display = "inline";
+  }
 
 
 </script>
